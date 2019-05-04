@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IMTorg Blog Site</title>
-    <link>https://imtorgdemo.github.io/</link>
+    <link>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/</link>
     <description>Recent content on IMTorg Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://imtorgdemo.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pages.github.com/imtorgdemo/imtorgdemo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About IMTorg</title>
-      <link>https://imtorgdemo.github.io/about/</link>
+      <link>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/about/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://imtorgdemo.github.io/about/</guid>
+      <guid>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/about/</guid>
       <description>If you are satisfied with this default theme, you are basically ready to start writing and publishing your new website! We will show how to use other themes in Section 1.6. However, please keep in mind that a more complicated and fancier theme may require you to learn more about all the underlying technologies like the Hugo templating language, HTML, CSS, and JavaScript.</description>
     </item>
     
     <item>
       <title>Notebook (.ipynb) Post</title>
-      <link>https://imtorgdemo.github.io/posts/00.index/</link>
+      <link>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/posts/00.index/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://imtorgdemo.github.io/posts/00.index/</guid>
+      <guid>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/posts/00.index/</guid>
       <description>Alias explicabo est et. Voluptas neque inventore beatae sequi dolor et autem non. Temporibus facilis molestiae sint excepturi a et quia. Assumenda libero qui et rerum quia nam aliquam dolores. Et eos placeat assumenda.
 Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.
 Introduction Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.
@@ -34,10 +34,10 @@ print(&#39;goodbye!&#39;)  Section Eligendi sunt aut illum.</description>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>https://imtorgdemo.github.io/posts/2015-07-23-r-rmarkdown/</link>
+      <link>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/posts/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>https://imtorgdemo.github.io/posts/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/posts/2015-07-23-r-rmarkdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
