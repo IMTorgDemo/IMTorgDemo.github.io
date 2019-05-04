@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on IMTorg Blog Site</title>
-    <link>https://pages.github.com/IMTorgDemo/IMTorgDemo.github.io/categories/</link>
+    <link>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/categories/</link>
     <description>Recent content in Categories on IMTorg Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pages.github.com/IMTorgDemo/IMTorgDemo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pages.github.com/imtorgdemo/imtorgdemo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>category1</title>
-      <link>https://pages.github.com/IMTorgDemo/IMTorgDemo.github.io/categories/category1/</link>
+      <link>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/categories/category1/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.com/IMTorgDemo/IMTorgDemo.github.io/categories/category1/</guid>
+      <guid>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/categories/category1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>category2</title>
-      <link>https://pages.github.com/IMTorgDemo/IMTorgDemo.github.io/categories/category2/</link>
+      <link>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/categories/category2/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://pages.github.com/IMTorgDemo/IMTorgDemo.github.io/categories/category2/</guid>
+      <guid>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/categories/category2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://pages.github.com/IMTorgDemo/IMTorgDemo.github.io/categories/r/</link>
+      <link>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/categories/r/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>https://pages.github.com/IMTorgDemo/IMTorgDemo.github.io/categories/r/</guid>
+      <guid>https://pages.github.com/imtorgdemo/imtorgdemo.github.io/categories/r/</guid>
       <description></description>
     </item>
     
