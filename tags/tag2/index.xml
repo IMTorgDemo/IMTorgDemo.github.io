@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tag2 on IMTorg Blog Site</title>
+    <link>http://example.org/tags/tag2/</link>
+    <description>Recent content in tag2 on IMTorg Blog Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Notebook (.ipynb) Post</title>
+      <link>http://example.org/posts/00.index/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/00.index/</guid>
+      <description>Alias explicabo est et. Voluptas neque inventore beatae sequi dolor et autem non. Temporibus facilis molestiae sint excepturi a et quia. Assumenda libero qui et rerum quia nam aliquam dolores. Et eos placeat assumenda.
+Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.
+Introduction Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.
+print(&#39;goodbye!&#39;)  Section Eligendi sunt aut illum.</description>
+    </item>
+    
+  </channel>
+</rss>
