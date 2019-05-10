@@ -6,10 +6,21 @@
     <description>Recent content in Category on IMTorg Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 May 2019 16:00:35 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/categories/category/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Formatting for Jupyter (.ipynb) Notebooks</title>
+      <link>https://imtorgdemo.github.io/posts/post_test-hugo_blog/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/post_test-hugo_blog/</guid>
+      <description>This is a test posts for formatting Jupyter Notebooks for Hugo.
+This workflow makes use of the code at repository nb2hugo.
+Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa. Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius excepturi voluptatibus reprehenderit. Facere enim neque dolorem sed ullam non. Dolor sit molestias repellendus.</description>
+    </item>
     
     <item>
       <title>Formatting a Markdown Post</title>
