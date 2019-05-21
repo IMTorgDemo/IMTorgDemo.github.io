@@ -6,45 +6,23 @@
     <description>Recent content in category2 on IMTorg Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2019 03:47:03 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/categories/category2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>The Second</title>
-      <link>https://imtorgdemo.github.io/posts/the-second/</link>
-      <pubDate>Sat, 04 May 2019 03:47:03 -0400</pubDate>
+      <title>List of ToDo Posts</title>
+      <link>https://imtorgdemo.github.io/posts/blog_page-todo/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://imtorgdemo.github.io/posts/the-second/</guid>
-      <description>Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa.
-Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius excepturi voluptatibus reprehenderit. Facere enim neque dolorem sed ullam non. Dolor sit molestias repellendus.
-Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://imtorgdemo.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 02 May 2019 16:00:35 -0400</pubDate>
-      
-      <guid>https://imtorgdemo.github.io/posts/my-first-post/</guid>
-      <description>Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa.
-Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius excepturi voluptatibus reprehenderit. Facere enim neque dolorem sed ullam non. Dolor sit molestias repellendus.
-This is a footnote.1
-In addition, we have task lists:
-a task list item list syntax required incomplete completed  One stormy night.</description>
-    </item>
-    
-    <item>
-      <title>Notebook (.ipynb) Post</title>
-      <link>https://imtorgdemo.github.io/posts/00.index/</link>
-      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://imtorgdemo.github.io/posts/00.index/</guid>
-      <description>Alias explicabo est et. Voluptas neque inventore beatae sequi dolor et autem non. Temporibus facilis molestiae sint excepturi a et quia. Assumenda libero qui et rerum quia nam aliquam dolores. Et eos placeat assumenda.
-Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.
-Introduction Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.
-print(&#39;goodbye!&#39;)  Section Eligendi sunt aut illum.</description>
+      <guid>https://imtorgdemo.github.io/posts/blog_page-todo/</guid>
+      <description> This is a list of blog posts that are referenced, but not yet complete.
+List of Future Posts General Machine Learning
+ scoring metrics, model performance metrics, and graphs imbalanced data feature engineering models in-depth  Natural Language Processing
+ functional programming numpy nltk / spaCy gensim word2vec fasttext nlp overview  General Data Concepts
+ datawarehousing infrastructure architectures serverless deployments  Business and Sales
+ pricing pyramid matching problems and solutions marketing -&amp;gt; business development -&amp;gt; sales cycle and org structure  </description>
     </item>
     
   </channel>

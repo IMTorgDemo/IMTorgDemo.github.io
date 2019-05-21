@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Formatting a Markdown Post // IMTorg Blog Site</title>
+    <title>Formatting for Jupyter (.ipynb) Notebooks // IMTorg Blog Site</title>
 
         <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -9,11 +9,11 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-        <meta property="og:title" content="Formatting a Markdown Post" />
+        <meta property="og:title" content="Formatting for Jupyter (.ipynb) Notebooks" />
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:url" content="https://imtorgdemo.github.io/posts/my-first-post/" />
+    <meta property="og:url" content="https://imtorgdemo.github.io/posts/blog_test-hugo_blog/" />
     
 
     <link href="" rel="alternate" type="application/rss+xml" title="IMTorg Blog Site" />
@@ -57,12 +57,12 @@
     <div class="article-inner">
         
         <header class="article-header">
-            <h1 class="article-title" itemprop="name">Formatting a Markdown Post</h1>
+            <h1 class="article-title" itemprop="name">Formatting for Jupyter (.ipynb) Notebooks</h1>
         </header>
         
         <div class="article-meta">
-            <a href="/posts/my-first-post/" class="article-date">
-                <time datetime='2019-05-02T16:00:35.000-04:00' itemprop="datePublished">2019-05-02</time>
+            <a href="/posts/blog_test-hugo_blog/" class="article-date">
+                <time datetime='2019-05-08T00:00:00.000&#43;00:00' itemprop="datePublished">2019-05-08</time>
             </a>
             
             
@@ -85,86 +85,82 @@
         <div class="article-entry" itemprop="articleBody">
             
 
-<p>Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa.</p>
+<p>This is a test post for formatting Jupyter Notebooks for Hugo.  This workflow makes use of the code at repository <a href="https://github.com/vlunot/nb2hugo">nb2hugo</a>.</p>
 
-<p>Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius excepturi voluptatibus reprehenderit. Facere enim neque dolorem sed ullam non. Dolor sit molestias repellendus.</p>
+<p>Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa. Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius excepturi voluptatibus reprehenderit. Facere enim neque dolorem sed ullam non. Dolor sit molestias repellendus.</p>
 
-<p>This is a footnote.<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+<h2 id="section-headers">Section Headers</h2>
 
-<p>In addition, we have task lists:</p>
+<p>Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa. Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius excepturi voluptatibus reprehenderit. Facere enim neque dolorem sed ullam non. Dolor sit molestias repellendus.</p>
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> a task list item</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> list syntax required</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> incomplete</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> completed</label></li>
+<pre><code class="language-python">print('goodbye!')
+</code></pre>
+
+<pre><code>goodbye!
+</code></pre>
+
+<h3 id="subsection-headers">Subsection headers</h3>
+
+<p>Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa. Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius excepturi voluptatibus reprehenderit. Facere enim neque dolorem sed ullam non. Dolor sit molestias repellendus.</p>
+
+<h3 id="subsection-headers-1">Subsection headers</h3>
+
+<p>Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa. Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius excepturi voluptatibus reprehenderit. Facere enim neque dolorem sed ullam non. Dolor sit molestias repellendus.</p>
+
+<h2 id="formatting-requirements">Formatting Requirements</h2>
+
+<h3 id="markdown-section">Markdown section</h3>
+
+<p>The post must conform to the following:</p>
+
+<ul>
+<li>notebook-filename_must_be_lowercase.ipynb</li>
+
+<li><p>apply metadata formatting</p>
+
+<pre><code># Formatting for Jupyter (.ipynb) Notebooks
+
+Date: 2019-05-08  
+Author: Jason Beach  
+Categories: Blog, Category  
+Tags: jupyter, tag 
+
+&lt;!--eofm--&gt;
+</code></pre></li>
+
+<li><p>notebook-name_must_be_lowercase.ipynb</p></li>
+
+<li><p><code>#Title As Above (.ipynb) or part of metadata (.md)</code></p></li>
+
+<li><p><code>## All Second Sections (to ensure proper smartToc)</code></p></li>
+
+<li><p><code>### All third sections</code></p></li>
+
+<li><p>use opening paragraph beneath metadata</p></li>
+
+<li><p>ensure either output, or markdown cell, between code cells</p></li>
+
+<li><p>reference other posts with absolute url: <code>[my post]( https://imtorgdemo.github.io/posts/blog_page-todo/#List-of-Future-Posts)</code></p></li>
+
+<li><p>add external references to documentation <code>[ref](http://domain.com)</code></p></li>
 </ul>
 
-<p>One stormy night.</p>
+<h3 id="graphic-section">Graphic section</h3>
 
-<h2 id="awesome-1">Awesome-1</h2>
+<pre><code class="language-python">import matplotlib.pyplot as plt
+import numpy as np
 
-<p>Facilis maiores doloribus similique sint quaerat reiciendis quia. Autem nemo voluptas rerum. Eos odio aut omnis. Adipisci voluptas nihil autem recusandae. Rem aut rerum provident. Minima dolor tempore veniam veniam repellendus nihil.</p>
+a=[x for x in range(10)]
+b=np.square(a)
+plt.plot(a,b)
+plt.show()
+</code></pre>
 
-<dl>
-<dt>Cat</dt>
-<dd>Fluffy animal everyone likes</dd>
-<dt>Internet</dt>
-<dd>Vector of transmission for pictures of cats</dd>
-</dl>
+<p><img src="output_11_0.png" alt="png" /></p>
 
-<p>Alias explicabo est et. Voluptas neque inventore beatae sequi dolor et autem non. Temporibus facilis molestiae sint excepturi a et quia. Assumenda libero qui et rerum quia nam aliquam dolores. Et eos placeat assumenda.</p>
+<h2 id="final-section">Final Section</h2>
 
-<p>Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.</p>
-
-<h2 id="awesome-2">Awesome-2</h2>
-
-<p>Facilis maiores doloribus similique sint quaerat reiciendis quia. Autem nemo voluptas rerum. Eos odio aut omnis. Adipisci voluptas nihil autem recusandae. Rem aut rerum provident. Minima dolor tempore veniam veniam repellendus nihil.</p>
-
-<p>Alias explicabo est et. Voluptas neque inventore beatae sequi dolor et autem non. Temporibus facilis molestiae sint excepturi a et quia. Assumenda libero qui et rerum quia nam aliquam dolores. Et eos placeat assumenda.</p>
-
-<p>Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.</p>
-
-<h3 id="sub-awesome-1">Sub Awesome-1</h3>
-
-<p>Facilis maiores doloribus similique sint quaerat reiciendis quia. Autem nemo voluptas rerum. Eos odio aut omnis. Adipisci voluptas nihil autem recusandae. Rem aut rerum provident. Minima dolor tempore veniam veniam repellendus nihil.</p>
-
-<p>Alias explicabo est et. Voluptas neque inventore beatae sequi dolor et autem non. Temporibus facilis molestiae sint excepturi a et quia. Assumenda libero qui et rerum quia nam aliquam dolores. Et eos placeat assumenda.</p>
-
-<p>Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.</p>
-
-<h3 id="sub-awesome-2">Sub Awesome-2</h3>
-
-<p>Facilis maiores doloribus similique sint quaerat reiciendis quia. Autem nemo voluptas rerum. Eos odio aut omnis. Adipisci voluptas nihil autem recusandae. Rem aut rerum provident. Minima dolor tempore veniam veniam repellendus nihil.</p>
-
-<p>Alias explicabo est et. Voluptas neque inventore beatae sequi dolor et autem non. Temporibus facilis molestiae sint excepturi a et quia. Assumenda libero qui et rerum quia nam aliquam dolores. Et eos placeat assumenda.</p>
-
-<p>Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.</p>
-
-<h3 id="sub-awesome-3">Sub Awesome-3</h3>
-
-<p>Facilis maiores doloribus similique sint quaerat reiciendis quia. Autem nemo voluptas rerum. Eos odio aut omnis. Adipisci voluptas nihil autem recusandae. Rem aut rerum provident. Minima dolor tempore veniam veniam repellendus nihil.</p>
-
-<p>Alias explicabo est et. Voluptas neque inventore beatae sequi dolor et autem non. Temporibus facilis molestiae sint excepturi a et quia. Assumenda libero qui et rerum quia nam aliquam dolores. Et eos placeat assumenda.</p>
-
-<p>Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>Facilis maiores doloribus similique sint quaerat reiciendis quia. Autem nemo voluptas rerum. Eos odio aut omnis. Adipisci voluptas nihil autem recusandae. Rem aut rerum provident. Minima dolor tempore veniam veniam repellendus nihil.</p>
-
-<p>Alias explicabo est et. Voluptas neque inventore beatae sequi dolor et autem non. Temporibus facilis molestiae sint excepturi a et quia. Assumenda libero qui et rerum quia nam aliquam dolores. Et eos placeat assumenda.</p>
-
-<p>Eligendi sunt aut illum. Odio voluptate commodi non temporibus vel veniam. Voluptatem magnam eum eum.</p>
-<div class="footnotes">
-
-<hr />
-
-<ol>
-<li id="fn:1">the footnote text.
- <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
-</ol>
-</div>
+<p>Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa. Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius excepturi voluptatibus reprehenderit. Facere enim neque dolorem sed ullam non. Dolor sit molestias repellendus.</p>
 
         </div>
 
@@ -176,14 +172,17 @@
 <ul>
 <li>
 <ul>
-<li><a href="#awesome-1">Awesome-1</a></li>
-<li><a href="#awesome-2">Awesome-2</a>
+<li><a href="#section-headers">Section Headers</a>
 <ul>
-<li><a href="#sub-awesome-1">Sub Awesome-1</a></li>
-<li><a href="#sub-awesome-2">Sub Awesome-2</a></li>
-<li><a href="#sub-awesome-3">Sub Awesome-3</a></li>
+<li><a href="#subsection-headers">Subsection headers</a></li>
+<li><a href="#subsection-headers-1">Subsection headers</a></li>
 </ul></li>
-<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#formatting-requirements">Formatting Requirements</a>
+<ul>
+<li><a href="#markdown-section">Markdown section</a></li>
+<li><a href="#graphic-section">Graphic section</a></li>
+</ul></li>
+<li><a href="#final-section">Final Section</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -237,7 +236,7 @@
             <ul class="article-tag-list">
                 
                 <li class="article-tag-list-item">
-                    <a class="article-tag-list-link" href="https://imtorgdemo.github.io//tags/markdown">markdown
+                    <a class="article-tag-list-link" href="https://imtorgdemo.github.io//tags/jupyter">jupyter
                     </a>
                 </li>
                 
@@ -252,15 +251,15 @@
     </div>
     <nav id="article-nav">
     
-    <a href="/posts/blog_test-hugo_blog/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/posts/blog_models-machine_learning/" id="article-nav-newer" class="article-nav-link-wrap">
         <div class="article-nav-title"><span>&lt;</span>&nbsp;
-            Formatting for Jupyter (.ipynb) Notebooks
+            Generalizing the Machine Learning Process
         </div>
     </a>
     
     
-    <a href="/posts/blog_page-todo/" id="article-nav-older" class="article-nav-link-wrap">
-        <div class="article-nav-title">List of ToDo Posts&nbsp;<span>&gt;</span></div>
+    <a href="/posts/my-first-post/" id="article-nav-older" class="article-nav-link-wrap">
+        <div class="article-nav-title">Formatting a Markdown Post&nbsp;<span>&gt;</span></div>
     </a>
     
 </nav>

@@ -6,28 +6,36 @@
     <description>Recent content in Posts on IMTorg Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Solving Problems with Regular Expressions</title>
+      <link>https://imtorgdemo.github.io/posts/blog_nlp-regular_expressions_workflow/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog_nlp-regular_expressions_workflow/</guid>
+      <description>Regular Expressions provide an important foundation for learning systems. They are useful for quick and direct approaches to solving problems without creating mounds of training data, nor the infrastructure for deploying a model. While they are a common programming technique, and simple enough to employ, they tend to be used so infrequently that you must re-learn them each time you wish to apply. This post summarizes the basic regex syntax, strategies, and workflow in hopes it will decrease the time needed to implement.</description>
+    </item>
+    
+    <item>
       <title>Generalizing the Machine Learning Process</title>
-      <link>https://imtorgdemo.github.io/posts/post_models-machine_learning/</link>
+      <link>https://imtorgdemo.github.io/posts/blog_models-machine_learning/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://imtorgdemo.github.io/posts/post_models-machine_learning/</guid>
-      <description>This work describes a general approach to follow when performing machine learning (ML) manually, and when automating in a deployment setting. Unlike a classical statistical analysis, standard machine learning projects typically follow a general and repeatable process. While the practicioner should be aware of details for each of the steps and the reasons for choosing them, there is much less design-thinking and checking of assumptions that are necessary components of more mathematical modeling fields.</description>
+      <guid>https://imtorgdemo.github.io/posts/blog_models-machine_learning/</guid>
+      <description>This work describes a general approach to follow when performing machine learning (ML) manually, and when automating in a deployment setting. Unlike a classical statistical analysis, standard machine learning projects typically follow a general and repeatable process. While the practictioner should be aware of details for each of the steps and the reasons for choosing them, there is much less design-thinking and checking of assumptions that are necessary components of more mathematical modeling fields.</description>
     </item>
     
     <item>
       <title>Formatting for Jupyter (.ipynb) Notebooks</title>
-      <link>https://imtorgdemo.github.io/posts/post_test-hugo_blog/</link>
+      <link>https://imtorgdemo.github.io/posts/blog_test-hugo_blog/</link>
       <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://imtorgdemo.github.io/posts/post_test-hugo_blog/</guid>
-      <description>This is a test posts for formatting Jupyter Notebooks for Hugo.
-This workflow makes use of the code at repository nb2hugo.
+      <guid>https://imtorgdemo.github.io/posts/blog_test-hugo_blog/</guid>
+      <description>This is a test post for formatting Jupyter Notebooks for Hugo. This workflow makes use of the code at repository nb2hugo.
 Cupiditate voluptas sunt velit. Accusantium aliquid expedita excepturi quis laborum autem. Quas occaecati et atque est repellat dolores. Laudantium in molestiae consequatur voluptate ipsa. Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius excepturi voluptatibus reprehenderit. Facere enim neque dolorem sed ullam non. Dolor sit molestias repellendus.</description>
     </item>
     
@@ -42,6 +50,20 @@ Nulla quia non qui sed. Voluptatem et enim nesciunt sunt pariatur. Libero eius e
 This is a footnote.1
 In addition, we have task lists:
 a task list item list syntax required incomplete completed  One stormy night.</description>
+    </item>
+    
+    <item>
+      <title>List of ToDo Posts</title>
+      <link>https://imtorgdemo.github.io/posts/blog_page-todo/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog_page-todo/</guid>
+      <description> This is a list of blog posts that are referenced, but not yet complete.
+List of Future Posts General Machine Learning
+ scoring metrics, model performance metrics, and graphs imbalanced data feature engineering models in-depth  Natural Language Processing
+ functional programming numpy nltk / spaCy gensim word2vec fasttext nlp overview  General Data Concepts
+ datawarehousing infrastructure architectures serverless deployments  Business and Sales
+ pricing pyramid matching problems and solutions marketing -&amp;gt; business development -&amp;gt; sales cycle and org structure  </description>
     </item>
     
   </channel>
