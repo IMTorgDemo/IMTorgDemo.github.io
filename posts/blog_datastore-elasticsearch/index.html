@@ -414,10 +414,11 @@ docker exec -it --user root cntr_elastic bash
 
 <p>Query: where clause</p>
 
-<pre><code>+ `bool must` clause specifies AND, all the queries that must be true
-+ `bool should` clause for OR
-+ `bool &quot;must_not&quot;` clause for NONE
-</code></pre>
+<ul>
+<li><code>bool must</code> clause specifies AND, all the queries that must be true</li>
+<li><code>bool should</code> clause for OR</li>
+<li><code>bool &quot;must_not&quot;</code> clause for NONE</li>
+</ul>
 
 <pre><code class="language-python">! curl -X GET &quot;host.docker.internal:9200/bank/_search&quot; -H 'Content-Type: application/json' -d'\
 {&quot;query&quot;: {&quot;bool&quot;: {&quot;must&quot;: \
@@ -432,9 +433,10 @@ docker exec -it --user root cntr_elastic bash
 
 <p>Query: filter clause</p>
 
-<pre><code>+ get a range of values
-+ bool query contains a match_all query (the query part) and a range query (the filter part)
-</code></pre>
+<ul>
+<li>get a range of values</li>
+<li>bool query contains a match_all query (the query part) and a range query (the filter part)</li>
+</ul>
 
 <pre><code class="language-python">! curl -X GET &quot;host.docker.internal:9200/bank/_search&quot; -H 'Content-Type: application/json' -d'\
 {&quot;query&quot;: {&quot;bool&quot;: {&quot;must&quot;: { &quot;match_all&quot;: {} },\
