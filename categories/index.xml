@@ -6,10 +6,28 @@
     <description>Recent content in Categories on IMTorg Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Category</title>
+      <link>https://imtorgdemo.github.io/categories/category/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/categories/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DataStore</title>
+      <link>https://imtorgdemo.github.io/categories/datastore/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/categories/datastore/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DataScience</title>
@@ -35,15 +53,6 @@
       <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://imtorgdemo.github.io/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Category</title>
-      <link>https://imtorgdemo.github.io/categories/category/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://imtorgdemo.github.io/categories/category/</guid>
       <description></description>
     </item>
     
