@@ -6,10 +6,37 @@
     <description>Recent content in Categories on IMTorg Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Economics</title>
+      <link>https://imtorgdemo.github.io/categories/economics/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/categories/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>category2</title>
+      <link>https://imtorgdemo.github.io/categories/category2/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/categories/category2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://imtorgdemo.github.io/categories/linux/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Category</title>
@@ -62,15 +89,6 @@
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://imtorgdemo.github.io/categories/category1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>category2</title>
-      <link>https://imtorgdemo.github.io/categories/category2/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://imtorgdemo.github.io/categories/category2/</guid>
       <description></description>
     </item>
     
