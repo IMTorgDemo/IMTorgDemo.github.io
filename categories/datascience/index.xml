@@ -6,10 +6,20 @@
     <description>Recent content in DataScience on IMTorg Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/categories/datascience/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduction to Groovy for Data Science on the JVM</title>
+      <link>https://imtorgdemo.github.io/posts/blog_programming_java-groovy/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog_programming_java-groovy/</guid>
+      <description>Groovy is a scripting language that compiles to the Java Virtual Machine. It would be more-aptly named JavaScript if that name were not already taken, but it has many similarities to Python. In fact, some of the libraries implemented for Groovy, such as TableSaw, attempt to take it in the same Data Science direction as Python.
+This post will provide an introduction to the Groovy language using Jupyter notebook with BeakerX, and provides specific applications to Data Science.</description>
+    </item>
     
     <item>
       <title>Solving Problems with Regular Expressions</title>
