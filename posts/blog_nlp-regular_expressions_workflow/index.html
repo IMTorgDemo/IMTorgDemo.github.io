@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Solving Problems with Regular Expressions // IMTorg Blog Site</title>
+    <title>Solving Textual Problems with Regular Expressions // IMTorg Blog Site</title>
 
         <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-        <meta property="og:title" content="Solving Problems with Regular Expressions" />
+        <meta property="og:title" content="Solving Textual Problems with Regular Expressions" />
     <meta property="og:description" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
@@ -57,7 +57,7 @@
     <div class="article-inner">
         
         <header class="article-header">
-            <h1 class="article-title" itemprop="name">Solving Problems with Regular Expressions</h1>
+            <h1 class="article-title" itemprop="name">Solving Textual Problems with Regular Expressions</h1>
         </header>
         
         <div class="article-meta">
@@ -433,6 +433,8 @@ switch (input) {
 
 <h2 id="language-python">Language: Python</h2>
 
+<h3 id="reading-files">Reading files</h3>
+
 <p>You can read-in a file with the following:</p>
 
 <p><code>file_object  = open(“filename”, “mode”)</code></p>
@@ -468,6 +470,30 @@ Subject: Instant Bloomberg  Persistent
 
 02/19/2019 00:55:35  User_68,has left the room
 </code></pre>
+
+<h3 id="ordinary-string-manipulation">Ordinary string manipulation</h3>
+
+<p>Before moving straight to regular expressions, users should take advantage of Python&rsquo;s built-in string manipulation functionality.  <em>Bracketing</em> textual start/end anchors with simple tools can keep your code clean and readable.  The following is an example of adding all text as a string, then using string methods and list comprehensions to select targets.</p>
+
+<pre><code class="language-Groovy">%%python
+with open(&quot;./Data/Bloomberg_Chat/example_chat.txt&quot;) as file:
+    data = file.read()
+    content = (data.split(',has left the room')[0]).split('has joined the room')[1]
+    lines = content.replace('\n', ' ').split('.')
+    quote = [x.strip() for x in lines]
+quote  
+</code></pre>
+
+<pre><code>['02/19/2019 00:56:29  User_105,Says   Cupiditate voluptas sunt velit',
+ 'Accusantium aliquid expedita excepturi quis laborum autem',
+ 'Quas occaecati et atque est repellat dolores',
+ 'Laudantium in molestiae consequatur voluptate ipsa',
+ '02/19/2019 00:55:35  User_68']
+</code></pre>
+
+<h3 id="using-regex">Using RegEx</h3>
+
+<p>Regualar expressions are more powerful not only for their patterns, but also because they can be compiled and used over large amounts of data.</p>
 
 <p>Use raw strings instead of regular Python strings. Raw strings begin with <code>r&quot;some text&quot;</code> and tell Python not to interpret backslashes and special metacharacters in the string.  This allows you to pass them to the regular expression engine, directly.</p>
 
@@ -574,7 +600,12 @@ process.stdout.write(&quot;Downloading &quot;);
 <li><a href="#the-exact-match-operator">The exact match operator (==~)</a></li>
 <li><a href="#the-pattern-with-switch-case">The pattern with switch case</a></li>
 </ul></li>
-<li><a href="#language-python">Language: Python</a></li>
+<li><a href="#language-python">Language: Python</a>
+<ul>
+<li><a href="#reading-files">Reading files</a></li>
+<li><a href="#ordinary-string-manipulation">Ordinary string manipulation</a></li>
+<li><a href="#using-regex">Using RegEx</a></li>
+</ul></li>
 <li><a href="#language-javascript">Language: JavaScript</a></li>
 <li><a href="#references">References</a></li>
 </ul></li>
