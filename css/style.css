@@ -114,7 +114,7 @@ body,
 }
 /*MODIFIED*/
 body {
-  background: #FFF7DE;
+  background: #f8f1e3;
   font: 16px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
   -webkit-text-size-adjust: 100%;
 }
@@ -153,7 +153,7 @@ body {
 .logo {
   width: 94px;
   height: 57px;
-  background-image: url("images/logo.png");
+  background-image: url("images/tn.png");
   -webkit-background-size: 74px 28px;
   -moz-background-size: 74px 28px;
   background-size: 74px 28px;
@@ -163,7 +163,7 @@ body {
 /* MODIFIED*/
 .logo-text {
   width: auto;
-  color: #000;
+  color: #0045ce;
   font-size: 24px;
   font-weight: 700;
   line-height: 57px;
@@ -172,7 +172,7 @@ body {
   background-image: none;
 }
 .article-meta a,
-a.article-title,
+#a.article-title,
 .article-entry a,
 .article-more-link a,
 #comments a,
@@ -210,12 +210,15 @@ a.article-title:hover,
 }
 .article-entry h1 {
   font-size: 2em;
+  color: #0045ce;
 }
 .article-entry h2 {
   font-size: 1.5em;
+  color: #0045ce;
 }
 .article-entry h3 {
   font-size: 1.3em;
+  color: #0045ce;
 }
 .article-entry h4 {
   font-size: 1.2em;
@@ -297,14 +300,14 @@ a.article-title:hover,
   overflow: hidden;
 }
 #main-nav {
-  float: left;
+  float: right;
   margin-left: -15px;
 }
 .main-nav-link,
 #main-nav-toggle,
 .search-form-submit {
   float: left;
-  color: #000;
+  color: #0045ce;
   text-decoration: none;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
@@ -454,6 +457,9 @@ a.article-title:hover,
   font-size: 2em;
   font-weight: 700;
   line-height: 1em;
+  color: #0045ce;
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
 }
 .article-entry {
   color: #111;
@@ -699,7 +705,8 @@ a.article-title:hover,
 }
 /*MODIFIED*/
 .article-toc li a {
-  color: #4da0ff;
+  /*color: #4da0ff;*/
+  color: #939393;
   text-decoration: none;
 }
 .article-toc li a.active {
@@ -831,12 +838,14 @@ a.article-title:hover,
   padding: 0 0.3em;
 }
 .article-entry pre {
-  padding: 20px;
+  padding: 2px;
+  margin-top: 2px;
 }
 .article-entry pre code {
   background: none;
   text-shadow: none;
   padding: 0;
+
 }
 .article-entry pre .highlight {
   padding: 0;
@@ -1096,3 +1105,32 @@ pre .php .xml {
   font-family: 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
   text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
 }
+
+.banner {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* MODIFICATIONS
+COLOR
+titles: logo-text, nav-link, article-title
+body {background}
+.article-entry h1, .article-entry h2, .article-entry h3
+
+toc
+
+.article-entry pre {
+  padding: 2px;
+  margin-top: 2px;
+}
+
+ADDED
+header.html -> favicon
+banner.html -> banner
+
+
+
+*/
+
