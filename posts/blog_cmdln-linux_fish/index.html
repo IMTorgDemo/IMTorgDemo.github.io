@@ -621,6 +621,50 @@ history | grep ssh
 whereis -b &lt;application&gt;
 </code></pre>
 
+<h3 id="find-files-that-contain-matching-text">Find files that contain matching text</h3>
+
+<p>Searching among millions of files for specific text is a very powerful feature.  Be sure to include this in your daily habits and it will be a live-saver for some future endeavor.</p>
+
+<pre><code class="language-python">grep -rnw '/path/to/somewhere/' -e 'pattern'
+
+# -r or -R is recursive
+# -n line number
+# -w match the whole word
+# -i ignore case
+# -l (lower-case L) can be added to just give the file name of matching files
+</code></pre>
+
+<p>Along with these, <code>--exclude</code>, <code>--include</code>, <code>--exclude-dir</code> flags could be used for efficient searching:</p>
+
+<ul>
+<li><p>This will only search through those files which have .c or .h extensions:</p>
+
+<p><code>grep --include=\*.{c,h} -rnw '/path/to/somewhere/' -e &quot;pattern&quot;</code></p></li>
+
+<li><p>This will exclude searching all the files ending with .o extension:</p>
+
+<p><code>grep --exclude=*.o -rnw '/path/to/somewhere/' -e &quot;pattern&quot;</code></p></li>
+
+<li><p>For directories it&rsquo;s possible to exclude a particular directory(ies) through &ndash;exclude-dir parameter. For example, this will exclude the dirs dir1/, dir2/ and all of them matching *.dst/:</p>
+
+<p><code>grep --exclude-dir={dir1,dir2,*.dst} -rnw '/path/to/somewhere/' -e &quot;pattern&quot;</code></p></li>
+</ul>
+
+<h3 id="perform-command-on-multiple-files">Perform command on multiple files</h3>
+
+<p>There are two ways you can apply the same command across multiple files.  The first is a one-liner using <code>find</code> with <code>-exec</code>.  The second is using a <code>for</code> loop.  The examples use the following Clojure compilation on a javascript file: <code>java -jar compiler.jar --js filename.js --js_output_file newfilename.js</code></p>
+
+<pre><code class="language-python">#find and execute
+find . -name &quot;*.js&quot; -exec java -jar compiler.jar --js {} --js_output_file new{} \;
+</code></pre>
+
+<pre><code class="language-python">#typical for loop
+for filename in ./*.js
+do
+    java -jar compiler.jar --js &quot;${filename}&quot; --js_output_file &quot;new${filename}&quot;
+done
+</code></pre>
+
 <h3 id="compress-and-archive">Compress and archive</h3>
 
 <pre><code class="language-python">#create zip (automatic compression)
@@ -749,6 +793,8 @@ git clean -f -d
 <li><a href="#copying-moving-and-merging-files">Copying, moving, and merging files</a></li>
 <li><a href="#copy-files-to-remote-server">Copy files to remote server</a></li>
 <li><a href="#find-files-directories-commands-and-applications">Find files, directories, commands, and applications</a></li>
+<li><a href="#find-files-that-contain-matching-text">Find files that contain matching text</a></li>
+<li><a href="#perform-command-on-multiple-files">Perform command on multiple files</a></li>
 <li><a href="#compress-and-archive">Compress and archive</a></li>
 <li><a href="#delete-and-trash-safe-delete">Delete and trash (safe-delete)</a></li>
 </ul></li>
