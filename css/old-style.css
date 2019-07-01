@@ -816,41 +816,30 @@ a.article-title:hover,
 }
 
 
-/* MODIFIED */
-.article-entry ul > li > p {
-  margin: 0;
-}
 
-/* MODIFIED */
-.article-entry code,
 .article-entry pre,
 .article-entry .highlight {
   margin: 0;
-  font-size: 10px;
+  font-size: 14px;
   background: #23241f;
   padding: 15px 0;
   overflow: auto;
   color: #fff;
-  line-height: 12.4px;
+  line-height: 22.4px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
   color: #666;
   font-size: 0.85em;
 }
-
-.article-entry code,
 .article-entry pre,
 .article-entry code {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace, '华文中宋';
 }
-
 .article-entry code {
-  /*background: #f2f2f2;*/
-  background: #23241f;
+  background: #f2f2f2;
   padding: 0 0.3em;
 }
-
 .article-entry pre {
   padding: 2px;
   margin-top: 2px;
@@ -870,27 +859,12 @@ a.article-title:hover,
   padding: 0;
 }
 */
-
-/* ALL TYPES OF OUTPUT */
 .article-entry pre:first-of-type + pre code:not(.language-python)  {
   background: #ffffff47;
   text-shadow: none;
   padding: 0;
 }
-.article-entry pre code[class="hljs css"]:not(.language-python):not(.xml),
-.article-entry pre code[class="hljs coffeescript"]:not(.language-python):not(.xml),
-.article-entry pre code[class="hljs cs"]:not(.language-python):not(.xml),
-.article-entry pre code[class="hljs http"]:not(.language-python):not(.xml),
-.article-entry pre code[class="hljs perl"]:not(.language-python):not(.xml),
-.article-entry pre code[class="hljs json"]:not(.language-python):not(.xml),
-.article-entry pre code[class="hljs ruby"]:not(.language-python):not(.xml),
-.article-entry pre code[class="hljs bash"]:not(.language-python):not(.xml),
-.article-entry pre code[class="hljs nginx"]:not(.language-python):not(.xml),
-.article-entry pre code[class="hljs python"]:not(.language-python):not(.xml)   {
-  background: #ffffff47;
-  text-shadow: none;
-  padding: 0;
-}
+
 
 
 
