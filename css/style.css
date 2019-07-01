@@ -832,6 +832,7 @@ a.article-title:hover,
   overflow: auto;
   color: #fff;
   line-height: 12.4px;
+  border-radius: 5px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -848,7 +849,8 @@ a.article-title:hover,
 .article-entry code {
   /*background: #f2f2f2;*/
   background: #23241f;
-  padding: 0 0.3em;
+  /*padding: 0 0.3em;*/
+  padding: 3px;
 }
 
 .article-entry pre {
@@ -861,7 +863,6 @@ a.article-title:hover,
 .article-entry pre code{
   background: none;
   text-shadow: none;
-  padding: 0;
 }
 /*
 .article-entry pre code[class^='language-']{
@@ -873,9 +874,9 @@ a.article-title:hover,
 
 /* ALL TYPES OF OUTPUT */
 .article-entry pre:first-of-type + pre code:not(.language-python)  {
-  background: #ffffff47;
+  background: #ffffffba;
+  color:black;
   text-shadow: none;
-  padding: 0;
 }
 .article-entry pre code[class="hljs css"]:not(.language-python):not(.xml),
 .article-entry pre code[class="hljs coffeescript"]:not(.language-python):not(.xml),
@@ -887,9 +888,9 @@ a.article-title:hover,
 .article-entry pre code[class="hljs bash"]:not(.language-python):not(.xml),
 .article-entry pre code[class="hljs nginx"]:not(.language-python):not(.xml),
 .article-entry pre code[class="hljs python"]:not(.language-python):not(.xml)   {
-  background: #ffffff47;
+  background: #ffffffba;
+  color:black;
   text-shadow: none;
-  padding: 0;
 }
 
 
