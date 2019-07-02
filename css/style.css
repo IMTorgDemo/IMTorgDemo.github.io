@@ -864,20 +864,15 @@ a.article-title:hover,
   background: none;
   text-shadow: none;
 }
-/*
+
 .article-entry pre code[class^='language-']{
   background: none;
   text-shadow: none;
   padding: 0;
 }
-*/
+
 
 /* ALL TYPES OF OUTPUT */
-.article-entry pre:first-of-type + pre code:not(.language-python)  {
-  background: #ffffffba;
-  color:black;
-  text-shadow: none;
-}
 .article-entry pre code[class="hljs css"]:not(.language-python):not(.xml),
 .article-entry pre code[class="hljs coffeescript"]:not(.language-python):not(.xml),
 .article-entry pre code[class="hljs cs"]:not(.language-python):not(.xml),
@@ -887,12 +882,21 @@ a.article-title:hover,
 .article-entry pre code[class="hljs ruby"]:not(.language-python):not(.xml),
 .article-entry pre code[class="hljs bash"]:not(.language-python):not(.xml),
 .article-entry pre code[class="hljs nginx"]:not(.language-python):not(.xml),
-.article-entry pre code[class="hljs python"]:not(.language-python):not(.xml)   {
+.article-entry pre code[class="hljs python"]:not(.language-python):not(.xml),
+.article-entry pre code[class="hljs diff"]:not(.language-python):not(.xml)   {
   background: #ffffffba;
   color:black;
   text-shadow: none;
 }
-
+/*
+.article-entry pre code span[class^='hljs-'] {
+  color:black;
+}*/
+.article-entry pre:first-of-type + pre code:not(.language-python)  {
+  background: #ffffffba;
+  color:black;
+  text-shadow: none;
+}
 
 
 
