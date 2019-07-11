@@ -6,10 +6,37 @@
     <description>Recent content in tag3 on IMTorg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/tags/tag3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building Math from the Ground-Up</title>
+      <link>https://imtorgdemo.github.io/posts/blog-logic_for_math/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog-logic_for_math/</guid>
+      <description>After completing basic high school mathematics, one might think that math stands on its own. To understand and know that 1+1=2 is obvious. But math can go much deeper. In fact, we can build new concepts from math as well as build a math, itself. This is important because it effects how we think about other subjects, and is especially useful in helping us think about language and abstract concepts, such as in programming.</description>
+    </item>
+    
+    <item>
+      <title>Communication Workflows with Hugo, Jupyter, and Friends</title>
+      <link>https://imtorgdemo.github.io/posts/blog-hugo_site_process/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog-hugo_site_process/</guid>
+      <description>Static Site Generators are quite popular replacements for traditional server-based methods of delivering HTML. One of the most popular is Hugo because of its compilation speed. Combining Hugo with Jupyter notebooks, and other tools, can provide for a speedy workflow for pushing your ideas to the web, books (online or pdf), and more. This post will discuss why you may want to do this and provides tools for doing it.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to LaTeX</title>
+      <link>https://imtorgdemo.github.io/posts/blog-intro_latex/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog-intro_latex/</guid>
+      <description>LaTeX is the document preparation and typesetting system used for scientific publications. LaTeX is based on the idea that &amp;lsquo;it is better to leave document design to document designers&amp;rsquo;, so the user can focus on the content. It requires a greater technical understanding than typical simple note-taking systems; however, because it is incredibly descriptive and produces aesthetically-appealing output, it is becoming more popular. This post provides a reference to configuration and syntax.</description>
+    </item>
     
     <item>
       <title>A Data Scientist&#39;s Guide to Modern Java(8&#43;) and the JVM</title>

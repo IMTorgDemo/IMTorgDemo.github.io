@@ -6,10 +6,46 @@
     <description>Recent content in Categories on IMTorg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Communication</title>
+      <link>https://imtorgdemo.github.io/categories/communication/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/categories/communication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logic</title>
+      <link>https://imtorgdemo.github.io/categories/logic/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/categories/logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematics</title>
+      <link>https://imtorgdemo.github.io/categories/mathematics/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/categories/mathematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://imtorgdemo.github.io/categories/web/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/categories/web/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ComputerScience</title>

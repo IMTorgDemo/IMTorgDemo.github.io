@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NLP on IMTorg</title>
+    <title>nlp on IMTorg</title>
     <link>https://imtorgdemo.github.io/tags/nlp/</link>
-    <description>Recent content in NLP on IMTorg</description>
+    <description>Recent content in nlp on IMTorg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building Math from the Ground-Up</title>
+      <link>https://imtorgdemo.github.io/posts/blog-logic_for_math/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog-logic_for_math/</guid>
+      <description>After completing basic high school mathematics, one might think that math stands on its own. To understand and know that 1+1=2 is obvious. But math can go much deeper. In fact, we can build new concepts from math as well as build a math, itself. This is important because it effects how we think about other subjects, and is especially useful in helping us think about language and abstract concepts, such as in programming.</description>
+    </item>
     
     <item>
       <title>Solving Textual Problems with Regular Expressions</title>

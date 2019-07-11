@@ -6,24 +6,42 @@
     <description>Recent content in Tags on IMTorg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>jvm</title>
-      <link>https://imtorgdemo.github.io/tags/jvm/</link>
-      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+      <title>knowledgebase</title>
+      <link>https://imtorgdemo.github.io/tags/knowledgebase/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://imtorgdemo.github.io/tags/jvm/</guid>
+      <guid>https://imtorgdemo.github.io/tags/knowledgebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://imtorgdemo.github.io/tags/markdown/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>https://imtorgdemo.github.io/tags/nlp/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/tags/nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tag2</title>
       <link>https://imtorgdemo.github.io/tags/tag2/</link>
-      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://imtorgdemo.github.io/tags/tag2/</guid>
       <description></description>
@@ -32,9 +50,27 @@
     <item>
       <title>tag3</title>
       <link>https://imtorgdemo.github.io/tags/tag3/</link>
-      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://imtorgdemo.github.io/tags/tag3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualization</title>
+      <link>https://imtorgdemo.github.io/tags/visualization/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/tags/visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jvm</title>
+      <link>https://imtorgdemo.github.io/tags/jvm/</link>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/tags/jvm/</guid>
       <description></description>
     </item>
     
@@ -93,15 +129,6 @@
     </item>
     
     <item>
-      <title>NLP</title>
-      <link>https://imtorgdemo.github.io/tags/nlp/</link>
-      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://imtorgdemo.github.io/tags/nlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>RegEx</title>
       <link>https://imtorgdemo.github.io/tags/regex/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
@@ -143,15 +170,6 @@
       <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://imtorgdemo.github.io/tags/tag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://imtorgdemo.github.io/tags/markdown/</link>
-      <pubDate>Thu, 02 May 2019 16:00:35 -0400</pubDate>
-      
-      <guid>https://imtorgdemo.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     

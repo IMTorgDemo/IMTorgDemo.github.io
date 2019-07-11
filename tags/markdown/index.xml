@@ -6,10 +6,19 @@
     <description>Recent content in markdown on IMTorg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 May 2019 16:00:35 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Communication Workflows with Hugo, Jupyter, and Friends</title>
+      <link>https://imtorgdemo.github.io/posts/blog-hugo_site_process/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog-hugo_site_process/</guid>
+      <description>Static Site Generators are quite popular replacements for traditional server-based methods of delivering HTML. One of the most popular is Hugo because of its compilation speed. Combining Hugo with Jupyter notebooks, and other tools, can provide for a speedy workflow for pushing your ideas to the web, books (online or pdf), and more. This post will discuss why you may want to do this and provides tools for doing it.</description>
+    </item>
     
     <item>
       <title>Formatting a Markdown Post</title>
