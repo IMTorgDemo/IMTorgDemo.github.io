@@ -21,6 +21,12 @@
   </url>
   
   <url>
+    <loc>https://imtorgdemo.github.io/tags/nlp/</loc>
+    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://imtorgdemo.github.io/posts/</loc>
     <lastmod>2019-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -44,12 +50,6 @@
   </url>
   
   <url>
-    <loc>https://imtorgdemo.github.io/tags/nlp/</loc>
-    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://imtorgdemo.github.io/tags/tag2/</loc>
     <lastmod>2019-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -58,6 +58,29 @@
   <url>
     <loc>https://imtorgdemo.github.io/tags/tag3/</loc>
     <lastmod>2019-11-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/categories/computerscience/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/posts/blog_nlp-history_nlp_deep_learn/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/tags/deeplearning/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/categories/math/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -81,12 +104,6 @@
   <url>
     <loc>https://imtorgdemo.github.io/posts/blog_math-competitive_edge/</loc>
     <lastmod>2019-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imtorgdemo.github.io/categories/math/</loc>
-    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -155,12 +172,6 @@
   <url>
     <loc>https://imtorgdemo.github.io/posts/blog_programming_java-modern_java/</loc>
     <lastmod>2019-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://imtorgdemo.github.io/categories/computerscience/</loc>
-    <lastmod>2019-06-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
