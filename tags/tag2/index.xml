@@ -6,10 +6,28 @@
     <description>Recent content in tag2 on IMTorg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://imtorgdemo.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Processing Natural Language with Python and Friends</title>
+      <link>https://imtorgdemo.github.io/posts/blog_nlp-intro_spacy/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog_nlp-intro_spacy/</guid>
+      <description>Python is a typical language chosen for Data Science work, and its strengths with strings make it especially useful for working with natural language. While the nltk library opened-up this work for python users, the newer spacy improves upon processing power by implementing Cython code. Tests display its power in production when compared with more traditional approaches, such as with Stanford&amp;rsquo;s CoreNLP. This post is an outline of examples from the spacy coursework and examples.</description>
+    </item>
+    
+    <item>
+      <title>A Letter to Students: Math is the Basis for Competitive Edge in Every Field</title>
+      <link>https://imtorgdemo.github.io/posts/blog_math-competitive_edge/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog_math-competitive_edge/</guid>
+      <description>Math is the greatest tool humans have for solving problems. However, it is incredibly expensive to get the experience of using it in the real-world. This is magnified by most teachers, and many university professors, not having any experience applying math anyplace other than academic contexts. This post shows the author&amp;rsquo;s trying experiences with learning maths in school, as well as the excitement of applying them to solve actual industry problems.</description>
+    </item>
     
     <item>
       <title>Building Math from the Ground-Up</title>
