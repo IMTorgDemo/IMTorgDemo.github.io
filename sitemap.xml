@@ -9,19 +9,7 @@
   </url>
   
   <url>
-    <loc>https://imtorgdemo.github.io/categories/datascience/</loc>
-    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://imtorgdemo.github.io/</loc>
-    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://imtorgdemo.github.io/tags/nlp/</loc>
     <lastmod>2019-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -50,6 +38,18 @@
   </url>
   
   <url>
+    <loc>https://imtorgdemo.github.io/categories/datascience/</loc>
+    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/tags/nlp/</loc>
+    <lastmod>2019-11-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://imtorgdemo.github.io/tags/tag2/</loc>
     <lastmod>2019-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -62,14 +62,14 @@
   </url>
   
   <url>
-    <loc>https://imtorgdemo.github.io/categories/computerscience/</loc>
+    <loc>https://imtorgdemo.github.io/posts/blog_nlp-history_nlp_deep_learn/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://imtorgdemo.github.io/posts/blog_nlp-history_nlp_deep_learn/</loc>
+    <loc>https://imtorgdemo.github.io/categories/computerscience/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -81,6 +81,29 @@
   <url>
     <loc>https://imtorgdemo.github.io/categories/math/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/categories/frontend/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/tags/javascript/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/posts/blog_prototype-creating_frontend/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/tags/vue/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

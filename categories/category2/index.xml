@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>Prototyping an Interactive Frontend with Vue</title>
+      <link>https://imtorgdemo.github.io/posts/blog_prototype-creating_frontend/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://imtorgdemo.github.io/posts/blog_prototype-creating_frontend/</guid>
+      <description>Assumes you are comfortable with HTML, CSS, JS. This will cover creating SPAs with webpack and Vue basics. This will not cover mobile or advanced Vue. Improvements will make frontend development a more imperative programming approach as compared to the typical declarative methods found in more basic work.
+Introduction Once you understand the basics of browser languages, such as HTML, CSS, and JS, then you quickly desire to have more interactive elements.</description>
+    </item>
+    
+    <item>
       <title>Explaining Complicated Subjects to Customers</title>
       <link>https://imtorgdemo.github.io/posts/blog_nlp-explain_metrics/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
