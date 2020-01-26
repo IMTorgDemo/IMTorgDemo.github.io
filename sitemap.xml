@@ -56,6 +56,35 @@
   </url>
   
   <url>
+    <loc>https://imtorgdemo.github.io/posts/blog_page-todo/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/tags/blog/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/categories/category1/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/categories/category2/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://imtorgdemo.github.io/tags/tag2/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://imtorgdemo.github.io/about/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
   </url>
